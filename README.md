@@ -15,5 +15,15 @@ GymPass style app
 - [ ] Deve ser possível cadastrar uma academia
 
 ## RNs (Regras de Negócio)
+- [ ] O usuário não deve poder se cadastrar com um email duplicado
+- [ ] O usuário não pode fazer dois checkins no mesmo dia
+- [ ] O usuário não pode fazer checkin se não estiver perto (100m) da academia
+- [ ] O checkin só pode ser validado até 20min após criado
+- [ ] O checkin só pode ser validado por administradores
+- [ ] A academia só pode ser cadastrada por administradores
 
 ## RNFs (Requisitos não funcionais)
+- [ ] A senha do usuário precisa estar criptografada
+- [ ] Os dados da aplicação precisam estar persistido em um banco PostreSQL
+- [ ] Todas listas de dados precisam estar paginadas com 20 itens por página
+- [ ] O usuário deve ser identificado por um JWT (Jason Web Token)
